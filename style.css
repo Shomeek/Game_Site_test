@@ -260,7 +260,8 @@ h3.small-heading {
 .center {
     text-align: center;
     list-style-position: inside;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 ol.center li{
     text-align: left;
