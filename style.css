@@ -95,9 +95,16 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .carousel {
+        height: 500px;
+    }
+
+
     .carousel-item {
 
-      height: 200vh;
+        /* position: absolute; */
+
+      height: 75vh;
       /* background-size: contain ; */
       background-repeat: no-repeat;
 
