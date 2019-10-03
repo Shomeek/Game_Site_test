@@ -229,3 +229,25 @@ hr.socket {
     border-top: .2rem solid #666b71;
     width: 100%;
 }
+
+
+footer a:hover {
+    text-decoration: none;
+    color: #1ebba3;
+}
+
+
+/* =====================styles for about me======================= */
+
+
+
+hr.bar {
+    border-top: 2rem solid orangered;
+    width: 100%;
+}
+
+h3.small-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
