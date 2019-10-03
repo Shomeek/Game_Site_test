@@ -47,6 +47,7 @@ body {
 
 
 
+
 /* =====================Navbar=================================  */
 
 .navbar {
@@ -77,14 +78,39 @@ body {
 
 
 /*==============================Slider==================================*/
-
-
-
-.carousel-item {
+/* .carousel-inner {
     height: 100vh;
 }
 
 
+.carousel-item {
+    height: 100%;
+} */
+
+@media screen and  (min-width: 769px) {
+    .carousel-item{
+        height: 100vh;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-item {
+
+      height: 200vh;
+      /* background-size: contain ; */
+      background-repeat: no-repeat;
+
+      background-attachment: fixed !important;
+      background-size: cover !important;   
+      background-position: center !important;
+    }
+    .carousel-caption {
+        top: 2rem;
+        font-size: 1rem;
+    }
+
+  }
 
 
 /*================================ Review Section===========================================*/
