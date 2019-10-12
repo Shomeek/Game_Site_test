@@ -243,7 +243,11 @@ h3.heading {
     font-weight: bold;
     text-align: center;
 }
-.game-news span {
+/* .game-news span {
+    color: orangered;
+} */
+
+span {
     color: orangered;
 }
 .game-news img {
@@ -266,6 +270,12 @@ h3.heading {
 
 /*=============================Guides Section==============================*/
 
+#Guides .card a {
+    text-decoration: none;
+    color:  #505962;
+}
+
+
 
 @media screen and  (max-width: 768px) {
     #Guides .card {
@@ -273,7 +283,7 @@ h3.heading {
         width: 110px;
         height: 100px;
         padding-bottom: 1rem;
-        display: inline-block;
+        /* display: inline-block; */
     }
 
     #Guides .card h4 {
@@ -384,4 +394,34 @@ h3.small-heading {
 ol.center li{
     text-align: left;
     margin-left: 45%;    
+}
+
+
+
+/*========================================Surg2Guide===========================================*/
+
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0; 
+    overflow: hidden;
+    /* padding-right: 1rem; */
+    }
+    
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+.content {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
