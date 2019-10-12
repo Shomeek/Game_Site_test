@@ -136,7 +136,7 @@ body {
     #News .card {
         width: 300px;
       height: 400px;
-      margin-left: 9rem;
+      /* margin-left: 9rem; */
       margin-top: 1rem
       
     }
