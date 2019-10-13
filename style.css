@@ -323,6 +323,7 @@ span {
         width: 110px;
         height: 100px;
         padding-bottom: 7rem;
+        margin-left: -.3rem;
         /* display: inline-block; */
     }
 
