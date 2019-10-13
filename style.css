@@ -152,7 +152,7 @@ body {
     #News .card {
         width: 168px;
         height: 380px;
-        margin-left: -1rem;
+        margin-left: 0rem;
     }
 
     #News .col-md-6 {
