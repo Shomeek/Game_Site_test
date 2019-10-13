@@ -150,9 +150,9 @@ body {
 
 @media screen and (max-width: 768px) {
     #News .card {
-        width: 200px;
+        width: 168px;
         height: 380px;
-        margin-left: 0;
+        margin-left: 0rem;
     }
 
     #News .col-md-6 {
