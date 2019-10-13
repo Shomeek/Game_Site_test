@@ -184,6 +184,7 @@ body {
 
 .featured-content {
     display: flex;
+    justify-content: space-around;
 }
 
 /*================================ Review Section===========================================*/
