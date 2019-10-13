@@ -101,11 +101,112 @@
     
                     <!-- </div> -->
             </div>
+        </div>
+
+
+        <h2 class="list-title">
+                View More
+        </h2> 
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Nws')" id="defaultOpen">News</button>
+            <button class="tablinks" onclick="openCity(event, 'Trlrs')">Trailers</button>
+            <button class="tablinks" onclick="openCity(event, 'Bst')">New Games</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Nws" class="tabcontent">
+            <hr>
+            <h3>All News</h3>
+            <hr>
+            <p><span>The last of US 2</span>  new trailer released Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ut similique animi consequatur recusandae minus, corporis dolore nulla suscipit at!</p>
+            <hr>
+            <p>New trailers released Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi assumenda soluta, commodi rem autem ad iusto odit omnis eveniet repudiandae voluptatum, cum magni? Tempora sapiente, quia quaerat molestias molestiae fugit.</p>
+            <hr>
+            <p>Moons of Madness, a new lovecarftian cosmic horror game is coming to PC this month and consloes in 2020.</p>
+            <hr>
+            <p>PS5 pre-orders are now live through a official Playstation retailer.</p>
+            <hr>
+        </div>
+
+        <div id="Trlrs" class="tabcontent">
+            <h3>Trailers</h3>
+            <p><span>The last of US 2</span> New trailer
+            <!-- <div class="col-12 narrow text-center"> -->
+                    <div class="col-sm-4">
+                <div class="video-container">   
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/upXdCtcwx_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+            <!-- </div> -->
+            <hr>
+            <p><span>Death Staranding</span> E3 2016 trailer</p>
+            <div class="col-sm-4">
+            <div class="video-container">   
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/r4tuYUJfxhA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+            <hr>
+            <p><span>The Surge 2</span> Trailers</p>
+            <div class="row no-padding">
+                    <div class="col-sm-4">
+                    <p><span>The Surge 2</span> Gamescom 2019 gameplay overview</p>   
+                    <div class="video-container">   
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Dl4vS-vRWcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                            <p><span>The Surge 2</span> Dev gameplay walkthrough</p>  
+                    <div class="video-container">   
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/SX7dkLByVhk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                            <p><span>The Surge 2</span> preview accolades trailer</p>  
+                    <div class="video-container">   
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CWZFANcLCwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    </div>
+
+
+                    
+            </div>
+
+
+
+            <hr>
 
         </div>
+
+        <div id="Bst" class="tabcontent">
+            <hr>
+            <h3>New Games releases this month</h3>
+            <hr>
+            <p><span>The last of US 2</span> New trailer
+        </div>
+
+        <hr>
+
     </div>
 
-
+    <script>
+            function openCity(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
 
 
     <!-- =========================================Ending the news Section====================================== -->
