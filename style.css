@@ -140,25 +140,51 @@ body {
       margin-top: 1rem
       
     }
+
+    #News .featured-content img {
+        height: 65%;
+    }
+
 }
 
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #News .card {
-        width: 100px;
-        height: 200px;
+        width: 200px;
+        height: 380px;
         margin-left: 0;
-             
     }
 
-    #News h4 {
-        font-size: .9rem;
+    #News .col-md-6 {
+        padding-bottom: 2rem;
     }
 
-} */
+
+}
+
+.list-title {
+    font-family: inherit;
+    background-color: #F26722;
+    margin-bottom: 12px;
+    font-weight: 600;
+    border: none;
+    height: 44px;
+    line-height: 44px;
+    /* text-decoration: none; */
+    text-align: center;    
+    
+}
 
 
+.list-title a{
+    color: white;
+    text-decoration: none;
+}
 
+
+.featured-content {
+    display: flex;
+}
 
 /*================================ Review Section===========================================*/
 
