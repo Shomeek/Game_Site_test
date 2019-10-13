@@ -324,6 +324,9 @@ span {
         height: 100px;
         padding-bottom: 7rem;
         /* display: inline-block; */
+    }
+
+    .row .paddings {
         justify-content: space-around;
     }
     
