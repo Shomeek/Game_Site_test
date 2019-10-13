@@ -324,6 +324,7 @@ span {
         height: 100px;
         padding-bottom: 7rem;
         /* display: inline-block; */
+        justify-content: space-around;
     }
     
 }
