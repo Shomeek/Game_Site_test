@@ -323,8 +323,9 @@ span {
         width: 110px;
         height: 100px;
         padding-bottom: 7rem;
-        margin-left: -.5rem;
+        margin-left: -.3rem;
         /* display: inline-block; */
+        justify-content: space-around;
     }
 
     .row .paddings {
@@ -430,6 +431,16 @@ ol.center li{
 
 
 
+/*=======================================News Html page=======================================*/
+
+.list-title{
+    color: white;
+}
+
+
+
+
+
 /*========================================Surg2Guide===========================================*/
 
 
@@ -457,3 +468,17 @@ ol.center li{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
