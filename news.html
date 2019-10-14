@@ -60,7 +60,7 @@
                             Featured News
                         </h2> 
                         <div class="featured-content">
-                            <a href="d2Shadowkeep.html">
+                            <a href="d2Shadowkeep.html" target="_blank">
                                 <div class="card text-center">
                                     <img class="card-img-top" src="./img/d2_shadowkeep1.jpg" alt="">
                                     <div class="card-body">
@@ -70,7 +70,7 @@
                                 </div>
                             </a>
     
-                            <a href="d2Shadowkeep.html">
+                            <a href="tlous2.html" target="_blank">
                                 <div class="card text-center">
                                     <img class="card-img-top" src="./img/TLOU2.jpg" alt="">
                                     <div class="card-body">
@@ -190,23 +190,22 @@
     </div>
 
     <script>
-            function openCity(evt, cityName) {
-              var i, tabcontent, tablinks;
-              tabcontent = document.getElementsByClassName("tabcontent");
-              for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-              }
-              tablinks = document.getElementsByClassName("tablinks");
-              for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-              }
-              document.getElementById(cityName).style.display = "block";
-              evt.currentTarget.className += " active";
-            }
-            
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
-            </script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                    }
+            tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
 
 
     <!-- =========================================Ending the news Section====================================== -->
