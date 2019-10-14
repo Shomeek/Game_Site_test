@@ -135,9 +135,9 @@ body {
 @media screen and  (min-width: 769px) {
     #News .card {
         width: 300px;
-      height: 400px;
+        height: 400px;
       /* margin-left: 9rem; */
-      margin-top: 1rem
+        margin-top: 1rem
       
     }
 
@@ -151,7 +151,7 @@ body {
 @media screen and (max-width: 768px) {
     #News .card {
         width: 168px;
-        height: 380px;
+        height: 250px;
         margin-left: 0rem;
     }
 
