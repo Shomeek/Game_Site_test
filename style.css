@@ -482,17 +482,41 @@ ol.center li{
 /*=======================================Reviews Html Page=====================================*/
 
 .checked {
-    color: orange;
+    color:goldenrod;
   }
 
-  .unchecked {
+.unchecked {
     color:  #40474e;
-  }
-/* 
-  .halfchecked {
-    color: orange;
-    margin-left: 50%;
-  } */
+}
+
+/* .positve {
+    float: left; 
+    width: 200px; 
+    border-right: 1px solid #333;
+}
+
+.negative { 
+    float: left; 
+    width: 200px;
+} */
+
+.positve h3{
+      color: green;
+}
+
+ .negative h3{
+    color: red;
+}
+
+.row ul {
+    list-style: none;
+    /* text-align: left; */
+}
+
+#surge2Guide .row {
+    margin-top: 2rem;
+    /* margin-bottom: 1rem; */
+}
 
 /*=======================================Addcountainers========================================*/
 
