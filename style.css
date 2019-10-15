@@ -171,11 +171,12 @@ body {
 		}
 	/* } */
 
-	.button span {
+	.button p {
 		position: absolute;
 		margin: auto 0;
 		text-transform: uppercase;
-		letter-spacing: 3px;
+        letter-spacing: 3px;
+        color: white;
 	}
 
 
@@ -188,9 +189,7 @@ body {
         }
         
 
- .button span {
-     color: white;
- }       
+ 
 	
 /* } */
 
