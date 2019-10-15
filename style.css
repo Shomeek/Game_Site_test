@@ -118,6 +118,84 @@ body {
   }
 
 
+/*=================================animated button=========================================*/
+
+.frame {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	margin-top: -150px;
+	margin-left: -100px;
+	border-radius: 2px;
+	/* box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1); */
+	overflow: hidden;
+    /* background: #FFA114; */
+    background: transparent;
+	color: white;
+	font-family: Raleway, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	cursor: pointer;
+}
+.button  svg {
+		height: 55px;
+		width: 150px;
+		fill: none;
+        stroke-width: 5;
+}
+
+.button 	.o1 {
+			stroke: rgba(#FFB341, 0.7);
+			/* fill: #FFA114; */
+			transition: all 1s ease-in-out;
+		}
+
+        .button 		.o2 {
+			stroke: white;
+			stroke-dasharray: 20 420;
+			stroke-dashoffset: 20;
+			transition: all 1s ease-in-out;
+		}
+	/* } */
+
+	span {
+		position: absolute;
+		margin: auto 0;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+
+
+    .button :hover .o1{
+			fill: rgba(#CC8110, 0.3);
+		}
+		
+		.button :hover .o2 {
+			stroke-dashoffset: -420;
+        }
+        
+
+ .button span {
+     color: white;
+ }       
+	
+/* } */
+
+
+
 /*=================================News Section============================================*/
 
 
@@ -186,6 +264,65 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);  
+  }
+
+
+  .flip-card-back h1{
+    margin-top: 4rem;
+  }
+
+  .flip-card-back p{
+    color: white;
+  }
+
+
 
 /*================================ Review Section===========================================*/
 
