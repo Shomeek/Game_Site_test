@@ -112,7 +112,12 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star-half checked"></span>
                     <span class="fa fa-star unchecked"></span>
-                    <p>Published date <time >14-10-2019</time></p>
+                    <script>
+                        var a = new Date("2019-10-14");
+                        var b = new Date();
+                        var y = dateDiffInDays(a,b);
+                    </script>
+                    <p>Published date <time >14-10-2019</time> (<span id="datecalc"></span>) days ago</p>
                     <!-- <time class="published-date relative-date" datetime="2019-10-08T04:01:00Z" data-published-date="2019-10-08T04:01:00Z"></time> -->
                     <!-- </p> -->
                 </a>
@@ -125,7 +130,12 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star unchecked"></span>
-                    <p>Published date <time >14-10-2019</time></p>
+                    <script>
+                        var a = new Date("2019-10-16");
+                        var b = new Date();
+                        var y = dateDiffInDays(a,b);
+                    </script>
+                    <p>Published date <time >16-10-2019</time> (<span id="datecalcs"></span>) days ago</p>
                     <!-- <time class="published-date relative-date" datetime="2019-10-08T04:01:00Z" data-published-date="2019-10-08T04:01:00Z"></time> -->
                     <!-- </p> -->
                 </a>
@@ -143,6 +153,7 @@
         </div>
 
     <!-- Script source files -->
+    <script src="/javascript.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <!-- <script src="./bootstrap.min.js"></script> -->
