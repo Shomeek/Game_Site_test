@@ -83,8 +83,6 @@ body {
 /* .carousel-inner {
     height: 100vh;
 }
-
-
 .carousel-item {
     height: 100%;
 } */
@@ -219,7 +217,7 @@ body {
 
 
 
-@media screen and  (min-width: 769px) {
+@media screen and  (min-width: 1521px) {
     #News .card {
         width: 300px;
         height: 400px;
@@ -235,7 +233,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1520px) {
     #News .card {
         width: 168px;
         height: 250px;
@@ -334,10 +332,39 @@ body {
 
 
 /*================================ Review Section===========================================*/
+/* 
 
+@media screen and (max-width: 1520px) {
+    #Reviews .flip-card {
+        width: 168px;
+        height: 250px;
+        margin-left: 0rem;
+    }
+    .reviews img {
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+}
+
+@media screen and  (min-width: 1521px) {
+    #Reviews .flip-card {
+        width: 300px;
+        height: 300px;
+  
+        margin-top: 1rem
+        
+      
+    }
+    .reviews img {
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+} */
 
 .reviews img {
-    max-width: 100%;
+    max-width: 100%; 
     /* transition: transform .5s ease; */
 }
 
@@ -352,7 +379,6 @@ body {
 
 /* .reviews img:hover {
     transform: scale(1.1);
-
 } */
 
 /* .reviews:hover {
@@ -450,7 +476,7 @@ span {
 
 
 
-@media screen and  (max-width: 768px) {
+@media screen and  (max-width: 1220px) {
     #Guides .card {
         align-items: left;
         width: 110px;
@@ -481,7 +507,7 @@ span {
 }
 
 
-@media screen and  (min-width: 769px) {
+@media screen and  (min-width: 1221px) {
     #Guides .card {
         /* align-items: left; */
         width: 300px;
@@ -493,7 +519,7 @@ span {
     }
 
     #Guides .card h4 {
-        font-size: 1rem;
+        font-size: .7rem;
     }
     
 }
@@ -690,7 +716,6 @@ ol.center li{
     width: 200px; 
     border-right: 1px solid #333;
 }
-
 .negative { 
     float: left; 
     width: 200px;
@@ -760,17 +785,3 @@ ol.center li{
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
